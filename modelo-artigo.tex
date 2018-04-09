@@ -1,0 +1,68 @@
+\documentclass[article,12pt,onesidea,4paper,english,brazil]{abntex2}
+
+\usepackage{lmodern, indentfirst, nomencl, color, graphicx, microtype, lipsum}			
+\usepackage[T1]{fontenc}		
+\usepackage[utf8]{inputenc}		
+
+\setlrmarginsandblock{3cm}{3cm}{*}
+\setulmarginsandblock{3cm}{3cm}{*}
+\checkandfixthelayout
+
+\setlength{\parindent}{1.3cm}
+\setlength{\parskip}{0.2cm}
+
+\SingleSpacing
+
+\begin{document}
+	
+	\selectlanguage{brazil}
+	
+	\frenchspacing 
+	
+	\begin{center}
+		\LARGE TÍTULO DO RESUMO
+		
+		\normalsize
+		Autor 1\footnote{Informações do Autor 1.} 
+		Autor 2\footnote{Informações do Autor 2.} 
+		Autor 3\footnote{Informações do Autor 3.} 
+		Autor 4\footnote{Informações do Autor 4.} 
+	\end{center}
+	
+	% resumo em português
+	\begin{resumoumacoluna}
+		Resumo do artigo.
+		
+		\vspace{\onelineskip}
+		
+		\noindent
+		\textbf{Palavras-chave}: palavra 1. palavra 2. palavra 3.
+	\end{resumoumacoluna}
+	
+	\textual
+	
+	\section*{Introdução}
+	
+	Texto da introdução.
+	
+	\section*{Material e Método}
+	
+	Texto MM.
+	
+	\section*{Resultados e Discussão}
+	
+	Texto RD.
+	
+	\section*{Conclusões}
+	
+	Texto con.
+	
+	\section*{Instituição de Fomento}
+	
+	Texto IF se houver.
+	
+	\section*{Referências}
+	
+	Refs.
+	
+\end{document}
