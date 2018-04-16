@@ -1,0 +1,68 @@
+\documentclass[article,12pt,onesidea,4paper,english,brazil]{abntex2}
+
+\usepackage{lmodern, indentfirst, nomencl, color, graphicx, microtype, lipsum}			
+\usepackage[T1]{fontenc}		
+\usepackage[utf8]{inputenc}		
+
+\setlrmarginsandblock{2cm}{2cm}{*}
+\setulmarginsandblock{2cm}{2cm}{*}
+\checkandfixthelayout
+
+\setlength{\parindent}{1.3cm}
+\setlength{\parskip}{0.2cm}
+
+\SingleSpacing
+
+\begin{document}
+	
+	\selectlanguage{brazil}
+	
+	\frenchspacing 
+	
+	\begin{center}
+		\LARGE DESENVOLVIMENTO DE UM INSTRUMENTO DE MOVIMENTAÇÃO DE
+		AMOSTRAS EMISSORAS DE RAIO GAMA PARA DETECTORES HPGe\footnote{Trabalho realizado dentro da área de Conhecimento CNPq: Ciência da Computação (1030007) com
+		financiamento do instituto Federal de Rondônia - IFRO.}
+		
+		\normalsize
+		Josileno Roberto da Silva\footnote{Bolsista (modalidade), josilenoroberto@hotmail.com, Campus Vilhena.} 
+		Erick Leonardo Weil\footnote{Colaborador (a), erick.weil@ifro.edu.br, Campus Vilhena.} 
+		Roberto Simplício Guimarães\footnote{Orientador (a), roberto.simplicio@ifro.edu.br, Campus Vilhena.} 
+		Clayton Ferraz Andrade\footnote{Co-orientador, clayton.andrade@ifro.edu.br, Campus Ji-Paraná.} 
+	\end{center}
+	
+	\noindent Um problema comum em espectroscopia gama é o posicionamento preciso da
+	amostra, já que variações nesse sentido podem levar a alterações na eficiência
+	geométrica do sistema. Isso, aliado à praticidade e ganhos de produtividade que
+	podem ser obtidos com um sistema que troque automaticamente as amostras
+	conforme sua medição termine, leva ao desenvolvimento de sistemas trocadores de
+	amostras automáticos, onde é necessário grande enfoque no perfeito
+	posicionamento das amostras em relação ao detector. O instrumento de
+	movimentação de amostras é um mecanismo automatizado que seleciona uma
+	amostra de radioisótopo retirada de um compartimento com outras amostras,
+	posicionando-a perpendicularmente sobre a cápsula do detector semicondutor de
+	germânio Hiper-Puro (HPGe), incumbido pela aquisição de dados das emissões
+	gamas oriundas da amostra. Durante a aquisição, a amostra gira
+	perpendicularmente em relação ao seu eixo, reduzindo assim a influência de sua
+	não uniformidade. O sistema será controlado por um circuito eletrônico, responsável
+	pelos movimentos descritos, bem como, pelo envio do posicionamento da amostra
+	ao programa de aquisição (GEN2000). Um programa computacional será instalado
+	no computador que por meio de uma interface gráfica amigável o usuário criará e
+	manipulará a sua rotina de aquisições de dados de forma automatizada, fornecendo
+	praticidade à sua rotina de trabalho e evitando que o mesmo seja
+	desnecessariamente exposto à fonte radioativa ao efetuar a troca de amostras no
+	detector. O programa, além de receber os dados do programa de aquisição,
+	apresentará em forma de diversos relatórios os dados do GEN2000 com os dados
+	do posicionador de amostras, podendo ser utilizado para armazenar os dados e
+	suas rotinas com o intuito de padronizar o procedimento, assegurando que todas as
+	amostras sejam processadas da mesma maneira, resultando na comparabilidade
+	das análises e no aumento da reprodutibilidade, conforme a necessidade do
+	pesquisador. O presente trabalho está em fase de construção do mecanismo, sendo
+	que sua instalação para aquisição de dados ocorrerá no próximo semestre.
+	
+	\vspace{\onelineskip}
+	
+	\noindent
+	\textbf{Palavras-chave}: Automação. Radiação. Gama.
+	
+\end{document}
