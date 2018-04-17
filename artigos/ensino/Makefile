@@ -8,4 +8,4 @@ all:
 	$(foreach art, $(SRC), $(call art_loop, $art))
 
 clean:
-	$(RM) *.pdf *.aux *.log *.synctex
+	$(RM) *.pdf *.aux *.log *.synctex *.gz
