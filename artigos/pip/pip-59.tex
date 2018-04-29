@@ -1,0 +1,38 @@
+\documentclass[article,12pt,onesidea,4paper,english,brazil]{abntex2}
+
+\usepackage{lmodern, indentfirst, nomencl, color, graphicx, microtype, lipsum}			
+\usepackage[T1]{fontenc}		
+\usepackage[utf8]{inputenc}		
+
+\setlrmarginsandblock{2cm}{2cm}{*}
+\setulmarginsandblock{2cm}{2cm}{*}
+\checkandfixthelayout
+
+\setlength{\parindent}{1.3cm}
+\setlength{\parskip}{0.2cm}
+
+\SingleSpacing
+
+\begin{document}
+	
+	\selectlanguage{brazil}
+	
+	\frenchspacing 
+	
+	\begin{center}
+		\LARGE Estudo dos índices pluviométricos da região Norte por técnicas de Mineração de Dados
+		
+		\normalsize
+	Ian Nasser Vital Mendes,\footnote{Bolsista (PIBID),invmendes@gmail.com, Campus Guajará-Mirim.} 
+		Angelo Maggioni Silva\footnote{Orientador(a), angelo.silva@ifro.edu.br, Campus Guajará-Mirim.} 
+		
+	\end{center}
+	
+	\noindent O estudo dos índices pluviométricos são de extrema importância pois estão relacionados ao desenvolvimento agrícola. A mineração de dados outorga vantagem competitiva a agricultura quando assiste à tomada de decisões utilizando a informação extraída por técnicas de Inteligência Artificial para a construção de modelos de classificação ou regressão. Na agroindústria, por exemplo, condições climáticas que viabilizam o plantio de uma lavoura são previstas utilizando Redes Neurais Artificiais(RNAs): Perceptrons de Múltiplas Camadas e oferecem taxa de acerto de 96\% [Coutinho et al. 2016]. Predizer o ciclo de um fenômeno reduz incertezas e permite aplicar capital humano e econômico durante o período essencial. O objetivo deste trabalho é fazer um mapeamento dos índices pluviométricos da região Norte e analisar o melhor período de plantio relacionado com agricultura da região. O estudo foi realizado pelo Bolsista: Ian Nasser Vital Mendes e o Orientador: Angelo Maggioni Silva. A coleta de dados e a agrupação propõem um método de agrupamento e classificação denominado \textit{Water-Clu}, para o mapeamento pluviométrico, utiliza-se como características apenas três propriedades da água: o ph, a turbidez e a temperatura. Os dados foram coletados do Rio Madeira Mamoré, localizando-se na região Norte que banha os estados de Rondônia e do Amazonas, na Estação de Tratamento de Água (ETA) da cidade de Guajará-Mirim. Após o processamento utilizando a ferramenta Weka 3.8 e o algoritmo de agrupamento \textit{SimpleKmeans}, verificamos que as amostras de água podem ser agrupadas em 3 classes, semelhantes aos períodos de chuva da região. O que significa um sucesso ao utilizar a ferramenta de Mineração de Dados para o mapeamento pluviométrico.
+	
+	\vspace{\onelineskip}
+	
+	\noindent
+	\textbf{Palavras-chave}: Pluviométrico. Mineração de Dados. Agroindústria.
+	
+\end{document}
