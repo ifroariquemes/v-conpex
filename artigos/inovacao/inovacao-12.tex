@@ -1,0 +1,64 @@
+\documentclass[article,12pt,onesidea,4paper,english,brazil]{abntex2}
+
+\usepackage{lmodern, indentfirst, nomencl, color, graphicx, microtype, lipsum}			
+\usepackage[T1]{fontenc}		
+\usepackage[utf8]{inputenc}		
+
+\setlrmarginsandblock{2cm}{2cm}{*}
+\setulmarginsandblock{2cm}{2cm}{*}
+\checkandfixthelayout
+
+\setlength{\parindent}{1.3cm}
+\setlength{\parskip}{0.2cm}
+
+\SingleSpacing
+
+\begin{document}
+	
+	\selectlanguage{brazil}
+	
+	\frenchspacing 
+	
+	\begin{center}
+		\LARGE FREEZER INTELIGENTE\footnote{Área de Conhecimento CAPES/CNPq: Ciência da Computação (10300007) / Hardware (10304010).}
+		
+		\normalsize
+		João Roberto Bond da Silva\footnote{Bolsista, jobond46@gmail.com, Discente de Tecnologia em Análise e Desenvolvimento de Sistemas, \textit{Campus} Vilhena.} 
+		Roberto Simplício Guimarães\footnote{Coordenador, roberto.simplicio@ifro.edu.br, Professor do curso de Tecnologia em Análise e Desenvolvimento de Sistemas, \textit{Campus} Vilhena}
+	\end{center}
+	
+	\noindent É comum ver em noticiários que milhares de doses de vacinas foram jogadas no lixo
+	por falta de refrigeração, com isso, dinheiro público sendo desperdiçado. Tendo em
+	vista essa problemática, faz-se necessário a criação de uma central de
+	monitoramento da refrigeração dessas doses por um preço acessível. O Freezer
+	Inteligente é um conjunto de sensores e atuadores controlados por um
+	microcontrolador Atmel (Arduino Mega) que visam monitorar e informar através de
+	torpedos SMS a temperatura, umidade, integridade e diversas outras características
+	dos refrigeradores, com o objetivo de diminuir a perda de produtos refrigerados. Foi
+	usado um artigo de alunos da UTFPR (Universidade Tecnológica do Paraná) que
+	explicam sobre a perda das doses de vacina (Cadernos Saúde Coletiva (2013) e o
+	livro “Primeiros Passos com o Arduino” sobre sistemas embarcados (Massimo Banzi,
+	2013). Para a criação do produto, foi usada a ideia de entrega contínua com
+	algumas adaptações. Neste método, uma funcionalidade é criada e deixamos o
+	código-fonte pronto para começar outra etapa. Isto é feito até que o projeto chegue
+	ao final e possamos implantar no refrigerador do cliente. Este método é muito
+	utilizado em empresas de desenvolvimento de \textit{softwares}, tendo em vista que o
+	mesmo diminui o tempo ocioso no projeto. O projeto ainda não chegou ao final,
+	porém, um resultado parcial já foi obtido. Foi visto através de uma pesquisa simples
+	que seria interessante uma plataforma web onde mostra através de gráficos e
+	planilhas para o cliente os dados sobre o seu freezer e não apenas mensagens de
+	aviso pelo telefone.O código que faz a medição de temperatura, umidade e
+	eletricidade do refrigerador já foi desenvolvido. O envio de torpedos SMS está sendo
+	implementado e o painel de monitoramento web é o próximo passo a ser dado pela
+	equipe. A importância e a aplicação deste produto para o mercado de refrigeradores
+	é gigantesca, principalmente o custo e benefício do produto. Uma central de
+	monitoramento hoje custa em média de dois à três mil reais no Brasil e o Freezer
+	Inteligente traz as mesmas funcionalidade com algumas particularidades que estas
+	centrais por cerca de quinhentos reais.
+	
+	\vspace{\onelineskip}
+	
+	\noindent
+	\textbf{Palavras-chave}: Automação. Arduino. Inovação.
+	
+\end{document}
